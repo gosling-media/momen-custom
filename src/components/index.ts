@@ -1,3 +1,3 @@
-import { Count } from './Count';
 
-export default { Count };
+// src/components/index.ts
+export { Iframe } from './Iframe';

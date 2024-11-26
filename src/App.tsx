@@ -1,14 +1,11 @@
-import { Count } from './components/Count';
-import './App.scss';
-import { BrowserRouter } from 'react-router-dom';
+// src/App.tsx
+import { Iframe } from './components';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div style={{ height: '60px', width: '60px' }}>
-        <Count globalData={{}} />
-      </div>
-    </BrowserRouter>
+    <div className="App">
+      <Iframe />
+    </div>
   );
 }
 
